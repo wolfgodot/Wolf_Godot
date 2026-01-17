@@ -1,0 +1,29 @@
+# Godot-specific ignores
+.godot/
+*.uid
+*.translation
+
+# Build artifacts
+wolfgodot.exe
+wolfgodot.console.exe
+wolfgodot.pck
+wolfgodot.zip
+wolfgodot.apk
+wolfgodot.apk.idsig
+web_deploy.zip
+*.zip
+
+# Web exports
+web/
+
+# Project assets and data (User-generated/Local)
+assets/
+data/
+
+# Editor/OS junk
+.editorconfig
+*.tmp
+*.log
+
+# Android export
+android/
